@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Sir Azeem — Happy Teacher's Day</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Georgia,serif;background:radial-gradient(circle at top,#fff,#ffeef6 45%,#eadcff);color:#4a3042;overflow-x:hidden}
+.bg{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(2px);opacity:.35;animation:float 7s ease-in-out infinite}
+.o1{width:180px;height:180px;background:#ffd3e5;left:-50px;top:10%}
+.o2{width:230px;height:230px;background:#ddd0ff;right:-70px;bottom:5%;animation-delay:1.5s}
+@keyframes float{50%{transform:translateY(-25px) scale(1.05)}}
+.petal{position:absolute;top:-40px;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(420deg)}}
+.card{width:min(94%,720px);margin:35px auto;padding:38px 25px 30px;text-align:center;background:rgba(255,255,255,.78);border:1px solid #fff;border-radius:32px;box-shadow:0 25px 70px #704c7926;backdrop-filter:blur(12px);position:relative;z-index:2}
+.badge{display:inline-block;padding:8px 16px;border-radius:30px;background:#fff0f6;color:#a13e6d;font-size:14px;letter-spacing:1px}
+.flowers{font-size:42px;margin:12px 0}
+h1{font-size:clamp(38px,9vw,68px);line-height:1.05;margin:8px 0;color:#a43d6b}
+h2{font-size:clamp(22px,5vw,30px);margin:10px;color:#76526c}
+.line{width:90px;height:3px;background:#c9789c;margin:20px auto;border-radius:5px}
+.intro{font-size:18px;line-height:1.8;max-width:590px;margin:auto}
+.quote{margin:25px auto;padding:20px;border-radius:20px;background:#fff8fb;font-size:20px;line-height:1.6;color:#71465f}
+button{border:0;border-radius:30px;padding:15px 28px;margin-top:8px;background:linear-gradient(100deg,#b83f76,#7954b7);color:white;font-size:17px;font-weight:bold;cursor:pointer;box-shadow:0 10px 25px #7954b733}
+button:hover{transform:translateY(-2px)}
+.message{display:none;margin-top:25px;animation:show .8s ease}
+@keyframes show{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.message p{font-size:18px;line-height:1.8}
+.reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:25px 0}
+.reason{padding:17px 8px;background:#fff;border-radius:18px;box-shadow:0 8px 20px #6c456014}
+.reason b{display:block;margin-top:7px;color:#9b426d}
+.signature{font-size:20px;color:#963e68;margin-top:22px}
+.footer{font-size:13px;opacity:.65;margin-top:20px}
+@media(max-width:520px){.reasons{grid-template-columns:1fr}.card{padding:30px 18px}}
+</style>
+</head>
+<body>
+<div class="bg">
+<div class="orb o1"></div><div class="orb o2"></div>
+<div class="petal" style="left:7%;animation-duration:9s">🌸</div>
+<div class="petal" style="left:24%;animation-duration:12s;animation-delay:2s">🌷</div>
+<div class="petal" style="left:46%;animation-duration:10s;animation-delay:1s">✨</div>
+<div class="petal" style="left:68%;animation-duration:13s;animation-delay:3s">🌸</div>
+<div class="petal" style="left:88%;animation-duration:11s;animation-delay:4s">🌺</div>
+</div>
+
+<main class="card">
+<div class="badge">A LITTLE MESSAGE FROM AYYAN</div>
+<div class="flowers">🌷 🌸 🌷</div>
+<h1>Happy<br>Teacher's Day!</h1>
+<h2>To the Wonderful Sir Azeem 💐</h2>
+<div class="line"></div>
+
+<p class="intro">
+Some teachers teach from books, but the best teachers leave a lesson in the heart.
+Today is a small way of saying <strong>thank you</strong> for everything you do.
+</p>
+
+<div class="quote">
+“Your words can turn a difficult lesson into a moment of confidence.”
+</div>
+
+<div class="reasons">
+<div class="reason">📚<b>For Teaching</b>Thank you for sharing your knowledge.</div>
+<div class="reason">💖<b>For Caring</b>Thank you for supporting your students.</div>
+<div class="reason">✨<b>For Inspiring</b>Thank you for making us believe we can improve.</div>
+</div>
+
+<button onclick="reveal()">💌 Open My Special Message</button>
+
+<section class="message" id="message">
+<div class="line"></div>
+<p>
+Dear Sir Azeem,<br><br>
+Thank you for your patience, guidance, encouragement, and all the little things
+that make learning better. I truly appreciate having a teacher who inspires
+students to keep learning and doing their best.
+</p>
+<p><strong>Wishing you happiness, success, and a very beautiful Teacher's Day! 🌸</strong></p>
+
+<div style="margin:28px auto;padding:22px;border-radius:22px;background:linear-gradient(135deg,#fff7fb,#f7f1ff);border:1px solid #f1dce9;max-width:570px;">
+  <div style="font-size:30px;margin-bottom:8px;">💌</div>
+  <h3 style="margin:0 0 12px;color:#9b426d;font-size:22px;">A Special Message From Me</h3>
+  <p style="margin:0;font-size:17px;line-height:1.8;">
+    Sir Azeem, if I could add one message to this page myself, it would be this:
+    <strong>the impact of a kind teacher can last much longer than any lesson.</strong>
+    The time, patience, and encouragement you give your students are things they
+    can carry with them for years. I hope you always know that your work matters,
+    your effort is appreciated, and your students are lucky to have you.
+    <br><br>
+    <strong>Thank you for being a teacher who makes learning feel meaningful. 🌷</strong>
+  </p>
+</div>
+
+<div class="signature">With respect &amp; best wishes,<br>— Ayyan ❤️</div>
+</section>
+
+<div class="footer">Made especially for Sir Azeem • Teacher's Day 🌸</div>
+</main>
+
+<script>
+function reveal(){
+ const m=document.getElementById("message");
+ m.style.display="block";
+ for(let i=0;i<28;i++){
+  const s=document.createElement("span");
+  s.textContent=["💖","🌸","✨","🌷","💐"][Math.floor(Math.random()*5)];
+  s.style.position="fixed";s.style.left="50%";s.style.top="48%";
+  s.style.fontSize=(16+Math.random()*22)+"px";s.style.zIndex="10";
+  const x=Math.random()*650-325,y=Math.random()*500-250;
+  s.animate([{transform:"translate(-50%,-50%) scale(.3)",opacity:1},
+  {transform:`translate(calc(-50% + ${x}px),calc(-50% + ${y}px)) scale(1.2)`,opacity:0}],
+  {duration:1300,easing:"cubic-bezier(.2,.7,.3,1)"});
+  document.body.appendChild(s);setTimeout(()=>s.remove(),1300);
+ }
+}
+</script>
+</body>
+</html>
